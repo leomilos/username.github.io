@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 2.2em;
+    margin: 10px 0;
+    color: #222;
+  }
+  
+  .profile-title {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .profile-content h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    color: #444;
+  }
+  
+  .skills-list,
+  .contact-list,
+  .experience-list,
+  .projects-list,
+  .languages-list,
+  .references-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li,
+  .contact-list li,
+  .experience-list li,
+  .projects-list li,
+  .languages-list li,
+  .references-list li {
+    margin: 10px 0;
+  }
+  
+  .contact-list a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .references-list strong {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .profile-container {
+      padding: 15px;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+    }
+    .profile-name {
+      font-size: 1.8em;
+    }
+    .profile-title {
+      font-size: 1em;
+    }
+  }
